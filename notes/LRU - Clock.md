@@ -1,0 +1,5 @@
+There are two parts to this algorithm, the clock algorithm and the search part.
+
+At each step we search through. The searching process can only change bits to 1 but not to 0. The searching process cycles through all the elements once and can start anywhere, it wouldn;t matter (because it can't change things to 0). If a page we are looking for is found, we set it's bit to 1. If we don't find it we move on to the next entry.
+
+Once the search step is over, if we need replacement then we move to the clock algorithm (which is a replacement algorithm). We start where the pointer was last. The pointer starts at the very left at the begining of the algorithm. It then cycles through and turns bits to 0 if they are 1 (giving them a second chance) and moves the pointer ahead by 1. If it finds a bit whose value is 0, it changes that and moves the pointer ahead by 1 so that we don't consider the thing we added again. 
