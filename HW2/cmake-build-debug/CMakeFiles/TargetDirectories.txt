@@ -1,0 +1,3 @@
+/home/ranai/Ranai/Spring23/os-COMS352/HW2/cmake-build-debug/CMakeFiles/HW2.dir
+/home/ranai/Ranai/Spring23/os-COMS352/HW2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ranai/Ranai/Spring23/os-COMS352/HW2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
